@@ -1,0 +1,34 @@
+  body{background-image: url("./Imagenes/Fondo.1.jpg");}  
+ *{
+  font-family: "Timmana", sans-serif;
+ }
+
+.myButton{
+background:antiquewhite;
+  border: none;
+  font-size: medium;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+border-radius: 20px;
+}
+.myButton:hover{
+  background-color:rgb(233, 147, 138);
+  color: brown;
+}
+
+.mytittle{
+  font-family: "Pacifico", cursive;
+}
+
+p{
+  color: rgb(7, 51, 134)
+}
+
+@media(max-width:1023){
+.mytittle{
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+
+
+
+}
+}
